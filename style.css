@@ -1,0 +1,28 @@
+body {
+    padding: 10%;
+}
+
+.box {
+    height: 300px;
+    /* width: 1300px; */
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    /* vertical-align: middle; */
+    border: 1px solid black;
+}
+
+img {
+    height: 200px;
+}
+
+.container {
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
