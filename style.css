@@ -14,15 +14,25 @@ body {
     border: 1px solid black;
 }
 
-img {
-    height: 200px;
+.image {
+    height: 190px;
+    width: 250px;
+    position: absolute;
+    transition: all ease 1s;
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    -o-transition: all ease 1s;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
 }
 
 .container {
     width: 250px;
     height: 190px;
-    overflow: hidden;
+    /* overflow: hidden; */
     border: 1px solid black;
-    display: flex;
-    flex-direction: row;
+    position: relative;
+    /* flex-direction: row; */
 }
