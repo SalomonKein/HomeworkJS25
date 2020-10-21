@@ -44,6 +44,7 @@ function slideNext() {
         step = 2;
 
     } else if (imgOverflow[0].getAttribute('type') == 'afterPrevious') {
+        step = step + 2;
         // elem = imgOverflow[0];
         // step = imgSlade.indexOf(elem);
         console.log(imgOverflow[0]);
