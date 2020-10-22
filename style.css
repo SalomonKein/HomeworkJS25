@@ -4,13 +4,10 @@ body {
 
 .box {
     height: 300px;
-    /* width: 1300px; */
     display: flex;
     justify-self: center;
     justify-content: center;
     align-items: center;
-    /* align-content: center; */
-    /* vertical-align: middle; */
     border: 1px solid black;
 }
 
@@ -31,8 +28,7 @@ body {
 .container {
     width: 250px;
     height: 190px;
-    /* overflow: hidden; */
+    overflow: hidden;
     border: 1px solid black;
     position: relative;
-    /* flex-direction: row; */
 }
